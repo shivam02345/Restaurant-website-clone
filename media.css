@@ -1,0 +1,25 @@
+@media screen and (max-width:786px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+    .content .text-content {
+        gap: 20px;
+    }
+    .text-content .button {
+        text-align: center;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+    .card1 {
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto;
+    }
+    .menu-card {
+        grid-template-areas: "b1 b1" "b1 b1" "b2 b3" "b2 b5" "b7 b4" "b6 b4";
+        column-gap: 30px;
+    }
+}
